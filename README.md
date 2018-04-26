@@ -4,7 +4,7 @@ Version 1.0 ( 26-April-2018 )
 
 This is a simple and fun javascript game
 
-### Development
+#### Development
 
 If you want to edit this source, first get a clone on your local and then :
 
