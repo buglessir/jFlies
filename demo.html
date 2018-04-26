@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Mohammad Esmaeilzadeh">
+<meta property="og:url" content="http://www.bugless.ir/jFlies/index.html">
+<meta property="og:image" content="http://www.bugless.ir/jFlies/assets/images/loading.gif">
+<meta property="og:title" content="jFlies">
+<meta property="og:description" content="This is a simple and fun javascript game">
+<meta name="robots" content="index, follow">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>jFlies - Demo</title>
+</head>
+<body>
+
+<div class="loading"></div>
+
+<div class="top">
+    <div class="name">
+        <h1>jFlies</h1>
+        <small>v1.0</small>
+    </div>
+    <div class="score">
+        <span>Score: </span>
+        <strong id="score"></strong>
+    </div>
+</div>
+
+<div class="players">
+    <audio id="attack-player">
+        <source src="assets/sounds/attack.mp3" type="audio/mp3">
+    </audio>
+    <audio id="insect-player" loop>
+        <source src="assets/sounds/insect.mp3" type="audio/mp3">
+    </audio>
+</div>
+
+<div class="welcome">
+    <img src="assets/images/fly.png" alt="jFlies">
+    <strong>Welcome to jFlies</strong>
+    <span>Just click on the flies and get scores</span>
+    <a href="https://github.com/buglessir/jFlies" class="clearfix" target="_blank">
+        <small>[ Source on the GitHub]</small>
+    </a>
+    <button onclick="play('hard')">Hard</button>
+    <button onclick="play('normal')">Normal</button>
+    <button onclick="play('easy')">Easy</button>
+</div>
+
+<div class="flies-area"></div>
+
+<script type="text/javascript" src="assets/js/jFlies.v1.js"></script>
+
+</body>
+</html>
